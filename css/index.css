@@ -1,0 +1,680 @@
+*{
+    margin:0;padding:0;
+}
+html,body,.main{
+    height:100%;
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+/*第一页*/
+#page1{
+    background: url("../images/beijing1.png") center center no-repeat;
+    background-size: cover;
+   
+
+}
+#page1{
+position: relative;
+}
+#page1>img{
+    position: absolute;
+}
+.jineng{
+    width: 3.8rem;
+    height: 1.3rem;
+    right: 0.6rem;
+    top:3.5rem;
+}
+.renwu{
+    width: 2.2rem;
+    height: 7rem;
+    bottom: 0;
+    right: 2.5rem;
+   
+
+}
+.touxiang{
+    width: 1.3rem;
+    height: 2.2rem;
+    top: 0;
+    right: 3rem;
+}
+
+#next{
+    width: 0.5rem;
+    height: 0.4rem;
+    background: url("../images/arrow.png") center center no-repeat;
+    background-size: cover;
+    top: auto;
+    left: 50%;
+    margin-left: -0.25rem;
+    bottom: 0.2rem;
+    animation: fadeInUp 1s linear infinite;
+}
+/*底部箭头动画*/
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+  
+  @-webkit-keyframes fadeInUpBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第二页 */
+#page2{
+    position:relative;
+}
+#page2>img{
+    position:absolute;
+}
+#page2{
+    background:url("../images/beijing2.png") center center no-repeat;
+    background-size:cover;
+}
+.zuopinji{
+ width: 100%;
+    height:7rem;
+
+}
+.zuopin1{
+    width: 6rem;
+    height:6rem;
+    top: 3.8rem;
+    left: 0.5rem;
+
+
+}
+
+.zuopin2{
+    width:6rem;
+    height:6rem;
+    right:0.4rem;
+    top:3.8rem;
+}
+
+.zuopin3{
+    width:6rem;
+    height:6rem;
+    left: 0.1rem;
+    top:5.6rem;
+}
+.zuopin4{
+    width:6rem;
+    height:6rem;
+    left: 2.5rem;
+    top:5rem;
+}
+.zuopin5{
+    width:6rem;
+    height:6rem;
+    left: -0.4rem;
+    top:7.5rem;
+}
+.zuopin6{
+    width:4rem;
+    height:4rem;
+    left: 3.5rem;
+    top:9.1rem;
+}
+
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:3.5rem;
+    line-height:0.64rem;
+    color:darkorange;
+}
+
+
+
+/* 第三页 */
+#page3{
+    position:relative;
+}
+#page3>img{
+    position:absolute;
+}
+#page3{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuopin7{
+    width:6rem;
+    height:6rem;
+    left: -1rem;
+    top:0.2rem;
+}
+.zuopin8{
+    width:6rem;
+    height:6rem;
+    left: 2.6rem;
+    top:0.2rem;
+}
+.zuopin9{
+    width:6rem;
+    height:6rem;
+    left: -1rem;
+    top:3.8rem;
+}
+.zuopin10{
+    width:6rem;
+    height:6rem;
+    left: 2.8rem;
+    top:3.8rem;
+}
+.zuopin11{
+    width:6rem;
+    height:6rem;
+    left: -0.6rem;
+    top:7.5rem;
+}
+.zuopin12{
+    width:6rem;
+    height:6rem;
+    left: 3rem;
+    top:7.5rem;
+}
+#page4{
+    position:relative;
+}
+#page4>img{
+    position:absolute;
+}
+#page4{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuopin001{
+    width:7.3rem;
+    height:7.3rem;
+    left: -0.6rem;
+    top:-1.4rem;
+
+}
+.zuopin002{
+    width:7.3rem;
+    height:7.3rem;
+    left: 2.8rem;
+    top:-1.4rem;
+
+}
+.zuopin003{
+    width:7.3rem;
+    height:7.3rem;
+    left: -0.6rem;
+    top:2.2rem;
+
+}
+.zuopin004{
+    width:7.3rem;
+    height:7.3rem;
+    left: 2.8rem;
+    top:2.2rem;
+
+}
+.zuopin005{
+    width:7.3rem;
+    height:7.3rem;
+    left: -0.6rem;
+    top:6rem;
+
+}
+.zuopin006{
+    width:7.3rem;
+    height:7.3rem;
+    left: 2.8rem;
+    top:6rem;
+
+}
+
+#page5{
+    position:relative;
+}
+#page5>img{
+    position:absolute;
+}
+#page5{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuopin007{
+    width:6rem;
+    height:6rem;
+    left: -0.6rem;
+    top:-0.3rem;
+
+}
+.zuopin008{
+    width:6rem;
+    height:6rem;
+    left:1.5rem;
+    top:-0.3rem;
+
+}
+.zuopin009{
+    width:6rem;
+    height:6rem;
+    left: 3.6rem;
+    top:-0.3rem;
+
+}
+.zuopin010{
+    width:6.5rem;
+    height:6.5rem;
+    left:-0.4rem;
+    top:3.2rem;
+
+}
+.zuopin011{
+    width:6.5rem;
+    height:6.5rem;
+    left: 3rem;
+    top:3.2rem;
+
+}
+.zuopin012{
+    width:6.5rem;
+    height:6.5rem;
+    left:-0.4rem;
+    top:7.1rem;
+
+}
+.zuopin013{
+    width:6.5rem;
+    height:6.5rem;
+    left: 3rem;
+    top:7.1rem;
+
+}
+#page6{
+    position:relative;
+}
+#page6>img{
+    position:absolute;
+}
+#page6{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuopin014{
+    width:6.5rem;
+    height:6.5rem;
+    left: -0.4rem;
+    top:-0.4rem;
+
+}
+.zuopin015{
+    width:6.5rem;
+    height:6.5rem;
+    left:3rem;
+    top:-0.4rem;
+
+}
+.zuopin016{
+    width:5.5rem;
+    height:5.5rem;
+    left: -0.3rem;
+    top:3.2rem;
+
+}
+.zuopin017{
+    width:5.5rem;
+    height:5.3rem;
+    left: 2.4rem;
+    top:2.6rem;
+
+}
+.zuopin018{
+    width:6.5rem;
+    height:6.5rem;
+    left:-1.4rem;
+    top:5.2rem;
+
+}
+.zuopin019{
+    width:6.5rem;
+    height:6.5rem;
+    left: 2.2rem;
+    top:5.8rem;
+
+}
+#page7{
+    position:relative;
+}
+#page7>img{
+    position:absolute;
+}
+#page7{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuoye1{
+    width:7.5rem;
+    height:7.5rem;
+    left: -2rem;
+    top:-1.8rem;
+
+}
+.zuoye2{
+    width:7.5rem;
+    height:7.5rem;
+    left:1.4rem;
+    top:-1.8rem;
+
+}
+.zuoye3{
+    width:7.5rem;
+    height:7.5rem;
+    left: -1.8rem;
+    top:2.1rem;
+
+}
+.zuoye4{
+    width:7.5rem;
+    height:7.5rem;
+    left: 1.8rem;
+    top:2.1rem;
+
+}
+.zuoye5{
+    width:7.5rem;
+    height:7.5rem;
+    left:-2rem;
+    top:5.3rem;
+
+}
+.zuoye6{
+    width:7.5rem;
+    height:7.5rem;
+    left: 1.8rem;
+    top:5.3rem;
+
+}
+#page8{
+    position:relative;
+}
+#page8>img{
+    position:absolute;
+}
+#page8{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuoye7{
+    width:7.5rem;
+    height:7.5rem;
+    left: 0rem;
+    top:-3rem;
+
+}
+.zuoye8{
+    width:7.5rem;
+    height:7.5rem;
+    left:0rem;
+    top:-0.6rem;
+
+}
+.zuoye9{
+    width:7.5rem;
+    height:7.5rem;
+    left: 0rem;
+    top:1.8rem;
+
+}
+.zuoye10{
+   width:7rem;
+    height:7rem;
+    left:0rem;
+    top:5.4rem;
+
+}
+.zuoye11{
+   
+  width:7rem;
+    height:7rem;
+    left: -2.2rem;
+    top:5.4rem;
+}
+.zuoye12{
+    width:7rem;
+    height:7rem;
+    left: 2.2rem;
+    top:5.4rem;
+
+}
+#page9{
+    position:relative;
+}
+#page9>img{
+    position:absolute;
+}
+#page9{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuoye13{
+   
+    width:7.5rem;
+      height:7.5rem;
+      left: -2.2rem;
+      top:-3rem;
+  }
+  .zuoye14{
+      width:7.5rem;
+      height:7.5rem;
+      left: 1.8rem;
+      top:-3rem;
+  }
+  .zuoye001{
+    width:7.5rem;
+    height:7.5rem;
+    left: -2.4rem;
+    top:1.2rem;
+
+}
+.zuoye002{
+   width:7rem;
+    height:7rem;
+    left:0.1rem;
+    top:5.4rem;
+
+}
+.zuoye003{
+   
+  width:7rem;
+    height:7rem;
+    left: -2.2rem;
+    top:5.4rem;
+}
+.zuoye004{
+    width:7rem;
+    height:7rem;
+    left: 2.4rem;
+    top:5.4rem;
+
+}
+.zuoye005{
+   
+    width:7rem;
+      height:7rem;
+      left: 0.1rem;
+      top:1.6rem;
+  }
+  .zuoye006{
+      width:7rem;
+      height:7rem;
+      left: 2.4rem;
+      top:1.6rem;
+  
+  }
+  #page10{
+    position:relative;
+}
+#page10>img{
+    position:absolute;
+}
+#page10{
+    position:relative;
+    background: url("../images/beijing3.png") center  center no-repeat;
+    background-size: cover;
+
+}
+.zuoye007{
+   
+    width:7.5rem;
+      height:7.5rem;
+      left: -1.8rem;
+      top:-3rem;
+  }
+  .zuoye008{
+      width:7.5rem;
+      height:7.5rem;
+      left: 1.6rem;
+      top:-3rem;
+  }
+  .zuoye009{
+    width:7.5rem;
+    height:7.5rem;
+    left: -2rem;
+    top:-0.4rem;
+
+}
+.zuoye010{
+   width:7rem;
+    height:7rem;
+    left:1.9rem;
+    top:0rem;
+
+}
+.zuoye011{
+   
+    width:7.5rem;
+      height:7.5rem;
+      left: -2.6rem;
+      top:2.6rem;
+  }
+  .zuoye012{
+      width:7.5rem;
+      height:7.5rem;
+      left: -0.2rem;
+      top:2.6rem;
+  }
+  .zuoye013{
+    width:7.5rem;
+    height:7.5rem;
+    left: 2.1rem;
+    top:2.6rem;
+
+}
+.zuoye014{
+   width:7rem;
+    height:7rem;
+    left:-2.4rem;
+    top:5.8rem;
+
+}
+.zuoye015{
+   
+    width:7.5rem;
+      height:7.5rem;
+      left: -0.3rem;
+      top:5.5rem;
+  }
+  .zuoye016{
+      width:7.5rem;
+      height:7.5rem;
+      left: 2.1rem;
+      top:5.5rem;
+  }
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/yinyuepan.png") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 1s linear infinite;
+ 
+}
+@keyframes music{
+   
+     100%{
+        transform: rotateZ(360deg); 
+     }
+}
